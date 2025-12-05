@@ -47,7 +47,7 @@
 
 conky.config = {
 
-	--Various settings
+--Various settings
 
 	background = true, 							-- forked to background
 	cpu_avg_samples = 2,						-- The number of samples to average for CPU monitoring.
@@ -61,12 +61,12 @@ conky.config = {
 	update_interval = 1,						-- update interval
 	imlib_cache_size = 0,                       -- disable image cache to get a new spotify cover per song
 
+--Placement
 
-	--Placement
-
-	alignment = 'middle_right',						-- top_left,top_middle,top_right,bottom_left,bottom_middle,bottom_right,
+	alignment = 'middle_right',					-- top_left,top_middle,top_right,bottom_left,bottom_middle,bottom_right,
 												-- middle_left,middle_middle,middle_right,none
-	--Arch Duoscreen
+
+--Arch Duoscreen
 	--gap_x = -1910,
 	gap_x = 15,									-- pixels between right or left border
 	gap_y = 0,									-- pixels between bottom or left border
@@ -74,12 +74,12 @@ conky.config = {
 	minimum_width = 300,						-- minimum height of window
 	maximum_width = 300,						-- maximum height of window
 
-	--Graphical
+--Graphical
 
 	border_inner_margin = 10, 					-- margin between border and text
 	border_outer_margin = 5, 					-- margin between border and edge of window
 	border_width = 0, 							-- border width in pixels
-	default_bar_width = 80,					-- default is 0 - full width
+	default_bar_width = 80,						-- default is 0 - full width
 	default_bar_height = 10,					-- default is 6
 	default_gauge_height = 25,					-- default is 25
 	default_gauge_width =40,					-- default is 40
@@ -93,7 +93,7 @@ conky.config = {
 	draw_outline = false,						-- draw outline
 	stippled_borders = 0,						-- dashing the border
 
-	--Textual
+--Textual
 
 	extra_newline = false,						-- extra newline at the end - for asesome's wiboxes
 	format_human_readable = true,				-- KiB, MiB rather then number of bytes
@@ -109,7 +109,7 @@ conky.config = {
 	use_xft = true,								-- xft font - anti-aliased font
 	xftalpha = 1,								-- alpha of the xft font - between 0-1
 
-	--Windows
+--Windows
 
 	own_window = true,							-- create your own window to draw
 	own_window_argb_value = 100,			    -- real transparency - composite manager required 0-255
@@ -118,10 +118,10 @@ conky.config = {
 	own_window_hints = 'undecorated,below,sticky,skip_taskbar,skip_pager',  -- if own_window true - just hints - own_window_type sets it
 	own_window_transparent = false,				-- if own_window_argb_visual is true sets background opacity 0%
 	own_window_title = 'system_conky',			-- set the name manually  - default conky "hostname"
-	own_window_type = 'normal',				-- if own_window true options are: normal/override/dock/desktop/panel
+	own_window_type = 'normal',					-- if own_window true options are: normal/override/dock/desktop/panel
 
 
-	--Colours
+--Colours
 
 	default_color = '#D9DDE2',  				-- default color and border color
 	color1 = '#FF0000',
@@ -131,12 +131,12 @@ conky.config = {
 	color5 = '#00BFFF',
 	color6 = '#FFFFFF',
 
-	--Signal Colours
+--Signal Colours
 	color7 = '#1F7411',  						--green
 	color8 = '#FFA726',  						--orange
 	color9 = '#F1544B',  						--firebrick
 
-    --Lua
+--Lua
 
 
 };
